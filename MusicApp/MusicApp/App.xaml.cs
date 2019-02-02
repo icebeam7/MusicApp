@@ -11,7 +11,7 @@ namespace MusicApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new Views.SongListView());
         }
 
         protected override void OnStart()
